@@ -1,19 +1,9 @@
 {
-    "name": "Clawpack tutorial",
-    "image": "ghcr.io/carlosal1015/aur/petsc",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode"
-            ],
-            "settings": {
-                "editor.formatOnSave": true
-            }
-        }
+    "name": "Arch Linux Codespace",
+    "build": {
+        "dockerfile": "Dockerfile"
     },
-    "forwardPorts": [
-        3000,
-        8080
-    ]
+    "settings": {},
+    "extensions": [],
+    "postCreateCommand": "echo 'Environment ready!'"
 }
