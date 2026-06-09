@@ -1,0 +1,19 @@
+{
+    "name": "Clawpack tutorial",
+    "image": "ghcr.io/carlosal1015/aur/petsc",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ],
+            "settings": {
+                "editor.formatOnSave": true
+            }
+        }
+    },
+    "forwardPorts": [
+        3000,
+        8080
+    ]
+}
