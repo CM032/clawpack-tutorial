@@ -1,9 +1,14 @@
 {
-    "name": "Arch Linux Codespace",
-    "build": {
-        "dockerfile": "Dockerfile"
+    "name": "Clawpack",
+    "image": "ghcr.io/cm032/images/python-clawpack:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter"
+            ]
+        }
     },
-    "settings": {},
-    "extensions": [],
     "postCreateCommand": "echo 'Environment ready!'"
 }
