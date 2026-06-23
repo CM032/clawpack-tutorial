@@ -7,7 +7,8 @@
                 "ms-python.python",
                 "ms-python.vscode-pylance",
                 "ms-toolsai.jupyter",
-                "wesbos.theme-cobalt2"
+                "wesbos.theme-cobalt2",
+                "Google.gemini-cli-vscode-ide-companion"
             ]
         }
     },
