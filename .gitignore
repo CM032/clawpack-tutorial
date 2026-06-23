@@ -225,3 +225,5 @@ _minted
 *.snm
 *.toc
 *.vrb
+*.bcf
+*.xml

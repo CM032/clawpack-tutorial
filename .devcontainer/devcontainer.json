@@ -14,5 +14,5 @@
     "containerEnv": {
         "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
     },
-    "postCreateCommand": "echo 'Environment ready!'"
+    "postCreateCommand": "mkdir -p ~/.gemini && [ -n \"$GEMINI_API_KEY\" ] && echo \"GEMINI_API_KEY=$GEMINI_API_KEY\" > ~/.gemini/.env && echo '✅ GEMINI_API_KEY saved to ~/.gemini/.env' || echo '⚠️  GEMINI_API_KEY not set — add it as a Codespaces secret'"
 }
