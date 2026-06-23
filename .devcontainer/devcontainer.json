@@ -6,9 +6,13 @@
             "extensions": [
                 "ms-python.python",
                 "ms-python.vscode-pylance",
-                "ms-toolsai.jupyter"
+                "ms-toolsai.jupyter",
+                "wesbos.theme-cobalt2"
             ]
         }
+    },
+    "containerEnv": {
+        "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
     },
     "postCreateCommand": "echo 'Environment ready!'"
 }
